@@ -6,7 +6,7 @@
 2. 启动 NEST，选择保存空间的文件夹，输入空间名称
 3. 使用底栏 `＋` 创建第一条笔记；默认快捷键为 `Ctrl+N`，以设置页为准
 
-便携版需要 Microsoft Edge WebView2 Runtime。缺少该运行时可使用包含离线组件的安装版，或从 [Microsoft 官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装
+在线安装版会检查 Microsoft Edge WebView2 Runtime，缺少时联网下载并安装；无法联网时请选包含离线组件的安装版。便携版需要系统已安装 WebView2，也可从 [Microsoft 官方页面](https://developer.microsoft.com/microsoft-edge/webview2/) 安装
 
 ## 日常操作
 
