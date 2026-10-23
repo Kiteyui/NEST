@@ -1,0 +1,10 @@
+*.exe
+*.zip
+*.msi
+*.sqlite*
+*.db*
+nest-storage.json
+nest-spaces.json
+.nest-app/
+.DS_Store
+Thumbs.db
