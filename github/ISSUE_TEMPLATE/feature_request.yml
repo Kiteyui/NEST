@@ -1,0 +1,10 @@
+name: 使用建议
+description: 描述你希望改善的使用场景
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你想完成什么
+      description: 请描述使用场景、现在遇到的困难，以及你希望的操作方式
+    validations:
+      required: true

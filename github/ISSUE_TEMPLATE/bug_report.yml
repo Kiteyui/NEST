@@ -1,0 +1,28 @@
+name: 问题反馈
+description: 报告运行或交互问题
+title: "[问题] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: NEST 版本
+      placeholder: Release 中的版本号，以及安装版或便携版
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 系统环境
+      placeholder: Windows 版本、屏幕缩放比例
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤
+      description: 请说明如何重现，并写出预期结果和实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 错误文字或截图
+      description: 请遮盖私人笔记和路径，不要上传数据库、密码或完整日志目录
