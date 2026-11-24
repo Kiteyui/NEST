@@ -1,0 +1,17 @@
+{
+  "name": "@kiteyui/nest-discussion",
+  "version": "0.2.2",
+  "description": "在 DeepSeek Harness 的项目对话中，将讨论整理进本机 NEST 里交给 AI 的条目。",
+  "author": "Kiteyui",
+  "license": "UNLICENSED",
+  "os": ["win32"],
+  "cpu": ["x64"],
+  "engines": { "dsh": "^0.2.2-rc.1" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "files": ["cordis.patch.yml"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiteyui/NEST.git",
+    "directory": "plugins/deepseek-harness"
+  }
+}
